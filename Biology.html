@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/Biology.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Biology</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!-- Navigation bar -->
+    <header> 
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="index.html" class="logo"><span>C.M.S</span> CLass 7</a>
+      <nav class="navbar">
+          <li type="none" class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Science</a>
+              <div class="dropdown-content">
+                  <a href="Biology.html">Biology</a>
+                  <a href="#">Chemistry</a>
+                  <a href="#">Physics</a>
+              </div>
+          </li>
+          <li type="none" class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Arts</a>
+              <div class="dropdown-content">
+                  <a href="#">History </a>
+                  <a href="#">Geography</a>
+              </div>
+          </li>
+          <li type="none" class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">English</a>
+              <div class="dropdown-content">
+                  <a href="#">English Literature</a>
+                  <a href="#">English Language</a>
+              </div>
+          </li>
+          <li type="none" class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Maths</a>
+              <div class="dropdown-content">
+                  <a href="#">Maths 1</a>
+                  <a href="#">Maths 2</a>
+              </div>
+          </li>
+          <li type="none" class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Hindi</a>
+              <div class="dropdown-content">
+                  <a href="#">Hindi Literature</a>
+                  <a href="#">Hindi Language</a>
+              </div>
+          </li>
+      </nav>
+      <div class="icons">
+          <i class="fas fa-search" id = 'search-btn' ></i>
+          <i class="fas fa-user" id = 'user-btn' ></i>
+      </div>
+      <form action="" class="search-bar-conatiner">
+          <input type="search" id = 'search-bar' placeholder="search here...">
+          <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+    <div class="login-form-container">
+      <i class="fas fa-times" id= 'form-close'></i>
+      <form action="https://sheetdb.io/api/v1/wwtm72iogy4tz" method="POST" id="sheetdb-form">
+          <h3>Attendance</h3>
+          <input type="text" name="data[Name]" class="box" placeholder="Enter Your Full name" required>
+          <input type="text" name="data[Class and Section]" class="box" placeholder="Enter Your Class and Section" required>
+          <input type="number" name="data[Mobile No.]" class="box" placeholder="Enter Your Mobile No." required>
+          <input type="email" name="data[Email]" class="box" placeholder="Enter Your email" required>
+          <input type="date" name="data[Date]" class= 'box' placeholder="enter date" required>
+          <input type="time" name="data[Time]" class= 'box' placeholder="enter time">
+          <select class="box" name="data[Attendance]" required>
+              <option value="Attendance Status">Attendance Status</option>
+              <option value="Present">Present</option>
+              <option value="Absent">Absent</option>
+          </select>
+          <input type="submit" value='Submit Now' class='btn'>
+      </form>
+  </div>
+
+    <!-- hOME section -->
+    <section class="home-bio" id="home-bio">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x700/?lab
+                " class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>City Montessori School</h5>
+                  <p>This website is for City Montessori School and is created by a child of City Montessori School</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x700/?biology,zoology,botany
+                " class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Class 7 (ICSE)</h5>
+                  <p>This website will provide you with the stuy material of class 7 of City Montessori School C.M.S (ICSE)</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x700/?hospital
+                " class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Biology</h5>
+                  <p>This is the biology part of science section of City Montessori School C.M.S (ICSE),<br> here you can get all the stuy material of Biology</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Syllabus section -->
+    <section class="course">
+        <h2>Course <i class="fas fa-book-reader"></i></h2>
+        <div class="container">
+            <div class="left">
+                <h4>Here is the complete PDF of class 7 syllabus </h4>
+                <iframe src="https://drive.google.com/file/d/1UevEUIjdf7e2LxyzHE-WlNZo2ZwteNRX/preview" width="500" height="500" allow="autoplay"></iframe>
+            </div>
+            <div class="right">
+                <h3>Here is the syllabus of Biology - </h3>
+                <p>
+                    <ul type = 'square'>
+                        <a href="#ch-1"><li>Plant Tissues</li></a>
+                        <a href="#ch-2"><li>Animal Tissues</li></a>
+                        <a href="#ch-1"><li>Classification of Animals</li></a>
+                        <a href="#ch-1"><li>Alergy</li></a>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="end"></div>
+    </section>
+
+    <!-- Chapter-1 Plant Tissues  -->
+    <section class="plant-tissues" id="ch-1">
+        <h2><i class="fas fa-seedling"></i> Plant Tissues <i class="fas fa-seedling"></i></h2>
+        <div class="container">
+            <div class="left">
+                <h3 class="con-1-h3">book PDF of biology chapter - 1, Plant Tissues</h3>
+                <iframe src="https://drive.google.com/file/d/1IFtVZW8ND1T2iMGkKiyft3i_QNgVS3dS/preview" width="500" height="500" allow="autoplay"></iframe>
+            </div>
+            <div class="right">
+                <h3 class="con-1-h3">written work of Plant Tissues</h3>
+                <iframe src="https://drive.google.com/file/d/1SpAaIIarpT9k8XGwqY1DzxlVVgJ3ECny/preview" width="500" height="500" allow="autoplay"></iframe>
+            </div>
+        </div>
+        <h3 class="s-h3">Summary</h3>
+        <div class="container-2">
+            <div class="left">
+                <h4>Facts</h4>
+                <ul>
+                    <li>A meristematic tissue is a group of cells that are capable of active cell division</li>
+                    <li>A permanent tissue is a group of cells in which growth has stopped permanently or for a time</li>
+                    <li>In leaves, the epiermis has special cells called gaurd cells that control the opening and closing of stomata</li>
+                    <li>In big trees the outer covering of the tree trunk is multilayered and called periderm</li>
+                    <li>If the tissue is sliced at right angle to its length, we get a transverse section (T.S.)</li>
+                    <li>If the tissue is sliced along its length we get longitudnal section (L.S.)</li>
+                    <li>Sclereids are reduced form of sclerenchyma cells with thickened cellular walls</li>
+                    <li>Sclereids form a major part of the shell of nuts such as wallnuts</li>
+                    <li>new xylem tissue keeps getting added to a growing plant as a result of actively dividing cells in the cambium, due to increase and decrease growth activity, in spring and autum, alternative pattern of growth are seen in xylem tissue of big trees.</li>
+                </ul>
+            </div>
+            <div class="right">
+                <h4>Complete summary</h4>
+                <ul>
+                  <li>A cell is a basic structural and functional unit of life in all livving beings</li>
+                  <li>The group of similar cells is known as tissues</li>
+                  <li>There are two types of plant tissues, they are- Meristematic tissue and Permanent Tissues</li>
+                  <li>The Group of actively dividing cells is known as Meristematic tissue</li>
+                  <li>There are two types of meristemati tissue they are- Apical Meristematic tissue and Lateral Meristematic Tissue</li>
+                  <li>The cells in which growth has stopped permanently or for a time is known as Permanent Tissues</li>
+                  <li>There are two types of permanent tissue, they are- Simple permanent tissue and Complex permanent Tissue</li>
+                  <li>Simple permanent tissue is composed of cells that functionally and structrally similar</li>
+                  <li>there are two types of Simple permanent tissue - Protective tissue and supporting tissue </li>
+                  <li>There are three types of dupporting tissue - Parenchyma, Collenchyma and sclerenchyma</li>
+                  <li>Complex permanent tissue is also known as conducting tissue</li>
+                  <li>complex permanent tissue is composed of two or more types of cells that are specialied to perform a common function</li>
+                  <li>There are two types of complex permanent tissue- Xylem and phloem</li>
+                  <li>Xylem is a water conducting tissue of Plant</li>
+                  <li>phloem is a food conducting tissue of plant</li>
+                  <li>Xylem and pholem together constitute vascular system of Plant</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-3">
+          <a href="index.html">
+            <button class="btn">Answer the question</button>
+          </a>
+        </div>
+        <div class="container-4">
+          <h3 class="s-h3">Videos</h3>
+          <div class="videos">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/bafSABXbD-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/ckvs9o24Kpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/-rGetleD-DI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="end"></div>
+    </section>
+
+    <!-- Chapter-2 Animal tissues -->
+    <section class="animal-tissue" id="ch-2">
+      <h2><i class="fas fa-feather-alt"></i> Animal Tissues <i class="fas fa-feather-alt"></i></h2>
+      <div class="container">
+        <div class="left">
+            <h3>biology chapter - 2, Animal Tissues</h3>
+            <iframe src="https://drive.google.com/file/d/1IFtVZW8ND1T2iMGkKiyft3i_QNgVS3dS/preview" width="500" height="500" allow="autoplay"></iframe>
+        </div>
+        <div class="right">
+            <h3>written work - Animal Tissues</h3>
+            <iframe src="https://drive.google.com/file/d/19m1O526GuAzho6ZU5etLVivXFnkBM7Ef/preview" width="500" height="500" allow="autoplay"></iframe>
+        </div>
+      </div>
+      <h3 class="s-h3">Summary</h3>
+      <div class="container-2">
+        <div class="left">
+          <h4>Facts</h4>
+                <ul>
+                    <li>A gland is a group of cells or an organ in the body that produces certain substance to carry out specific metabolic activities</li>
+                    <li>The light and dark bands in voluntary muscle are due to the presence of special protein filament of actin and myosin that contract and relax the muscle to bring about movement.</li>
+                    <li>The nerve cell can be very long - up to 3 meters - as in the case of elephant</li>
+                </ul>
+        </div>
+        <div class="right">
+          <h4>Complete summary</h4>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum illo modi nihil odit ducimus qui corporis eligendi assumenda quo.</li>
+                </ul>
+            </div>
+      </div>
+    </section>
+
+    <script src="Index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

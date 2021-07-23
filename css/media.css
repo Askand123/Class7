@@ -1,0 +1,234 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  .plant-tissues .container iframe {
+    width: 400px;
+  }
+  .course .container .left iframe {
+    width: 400px;
+  }
+  .plant-tissues .container-4 .videos iframe {
+    width: 350px;
+    margin-left: 1rem;
+  }
+  .carousel-caption {
+    display: block;
+  }
+  .animal-tissue .container iframe {
+    width: 400px;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    padding: 2rem;
+  }
+  .home-bio {
+    height: 50rem;
+  }
+  .d-block {
+    height: 50rem;
+  }
+  .course .container {
+    flex-direction: column;
+  }
+  .course .container .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .course .container .right {
+    width: 100%;
+  }
+  .plant-tissues .container iframe {
+    width: 300px;
+    height: 400px;
+  }
+  .course .container .left iframe {
+    width: 300px;
+    height: 400px;
+  }
+  .plant-tissues .container-4 .videos {
+    display: flex;
+    flex-direction: column;
+  }
+  .plant-tissues .container-4 .videos iframe {
+    margin-bottom: 2rem;
+  }
+  .carousel-caption {
+    display: block;
+  }
+  .animal-tissue .container iframe {
+    width: 300px;
+    height: 400px;
+  }
+  .animal-tissue .container-2 {
+    flex-direction: column;
+  }
+  .animal-tissue .container-2 .right {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .animal-tissue .container-2 .left {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .plant-tissues .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container-2 {
+    flex-direction: column;
+  }
+  .plant-tissues .container-2 .right {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .plant-tissues .container-2 .left {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .plant-tissues .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plant-tissues .container-2 {
+    flex-direction: column;
+  }
+  .plant-tissues .container-2 .right {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .plant-tissues .container-2 .left {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .animal-tissue .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .animal-tissue .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .animal-tissue .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #menu-bar {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    padding: 0;
+    background: #333;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 17rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    height: 65rem;
+  }
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header .navbar .dropdown {
+    margin: 0;
+    padding: 0;
+  }
+  header .navbar .dropdown .dropbtn {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-left: 5rem;
+    background: #222;
+    width: 85vw;
+  }
+  .dropdown:hover .dropdown-content {
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 0rem;
+  }
+  .dropdown-content a {
+    width: 80%;
+    padding: 2rem;
+  }
+  .dropdown-content a:hover {
+    width: 90%;
+  }
+  .carousel-caption {
+    display: block;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+  .heading span {
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .container .right {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .container .left {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .pledege .container {
+    flex-direction: column-reverse;
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+}

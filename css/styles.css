@@ -1,0 +1,132 @@
+#preloader {
+  background: #191f26 url("https://i.redd.it/ad27atzy1zxz.gif") no-repeat center
+    center;
+  background-size: 25%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-shadow: 10px 7px 5px grey;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.isseonline.com/wp-content/uploads/2019/04/City-Montessori.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+html {
+  font-size: 62.5%;
+}
+.home h2 {
+  text-shadow: 10px 7px 5px black;
+}
+.home h2 {
+  font-size: 3rem;
+}
+.home h3 {
+  font-size: 2.5rem;
+}
+.home p {
+  text-align: center;
+  color: #ffff;
+  font-size: 1.8rem;
+}
+.about {
+  margin: 0;
+  padding: 0;
+}
+.about h2 {
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-shadow: 10px 7px 5px grey;
+}
+.about p {
+  font-size: 1.5rem;
+}
+.about .container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-h3 {
+  padding-bottom: 2%;
+  font-size: 2.5rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.left img {
+  width: 50rem;
+  height: 50rem;
+}
+.left {
+  display: flex;
+  width: 50%;
+}
+.pledge-img {
+  border: 3px solid black;
+  width: 80%;
+  animation: float 3s linear infinite;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+}
+.pledege {
+  padding-bottom: 5%;
+}
+.pledege .container {
+  display: flex;
+}
+.pledege .container .right h3 {
+  font-size: 3rem;
+}
+.pledege .container .right p {
+  font-size: 2rem;
+}
+.p-p {
+  font-size: 1.5rem;
+}
+footer {
+  background-color: #212529;
+  height: 4rem;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  /* text-shadow: 5px 3px 2px grey; */
+}
