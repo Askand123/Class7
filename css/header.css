@@ -207,7 +207,6 @@ header .search-bar-conatiner label:hover {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1005;
   padding-top: 2rem;
-  text-shadow: 10px 7px 5px white;
   padding-bottom: 2rem;
 }
 .dropdown-content a {
