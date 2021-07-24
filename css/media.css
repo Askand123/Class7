@@ -229,13 +229,11 @@
   }
   .pledege .container .left {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 90%;
   }
   .pledege .container .right {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 90%;
   }
