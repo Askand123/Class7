@@ -1,5 +1,5 @@
 .end {
-  border-bottom: 3px solid #212529;
+  border-bottom: 3px solid var(--secondary);
   width: 20%;
   margin-top: 5%;
   margin-left: 40%;
@@ -100,12 +100,12 @@
 }
 .btn-answer {
   background-color: transparent;
-  color: #212529;
-  border: 2px solid #212529;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
   transition: 0.5s all;
 }
 .btn-answer:hover {
-  background-color: #212529;
+  background-color: var(--secondary);
   color: white;
   border: 2px solid black;
 }
@@ -126,9 +126,10 @@
 
 /* Animal tissues section styling */
 .animal-tissue {
-  background: var(--orange);
-  color: #ffff;
+  background: #fcd299;
+  color: #0000;
   height: max-content;
+  padding-bottom: 3rem;
 }
 .animal-tissue .container {
   display: flex;
@@ -154,6 +155,7 @@
   /* text-align: center; */
   margin-bottom: 3%;
   font-size: 2rem;
+  color: #000;
 }
 .animal-tissue h2 {
   text-align: center;
@@ -161,7 +163,8 @@
   padding-bottom: 2rem;
   font-weight: bolder;
   font-size: 3rem;
-  text-shadow: 10px 7px 5px black;
+  color: black;
+  text-shadow: 10px 7px 5px grey;
 }
 
 .animal-tissue .container-2 {
@@ -173,15 +176,50 @@
 .animal-tissue h4 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  color: #000;
 }
 .animal-tissue ul li {
   font-size: 1.5rem;
+  color: #000;
 }
 .animal-tissue .container-2 .left {
   width: 45%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .animal-tissue .container-2 .right {
   width: 45%;
+}
+.animal-tissue .container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animal-tissue .container-4 .videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.animal-tissue .container-4 .videos iframe {
+  border: 2px solid var(--secondary);
+}
+
+/* classification of Animal Styling */
+.chap-3 .container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.chap-3 .container .left {
+  display: flex;
+  flex-direction: column;
+}
+.chap-3 .container .right {
+  display: flex;
+  flex-direction: column;
+}
+.chap-3 .heading-h2 {
+  text-align: center;
 }
