@@ -223,3 +223,228 @@
 .chap-3 .heading-h2 {
   text-align: center;
 }
+.end {
+  border-bottom: 3px solid var(--secondary);
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+/* Home section of biology styling */
+.home-bio .carousel-caption {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.home-bio h5 {
+  font-size: 2.5rem;
+}
+.home-bio p {
+  font-size: 1.5rem;
+}
+
+/* course section styling*/
+.course {
+  padding-top: 2rem;
+}
+.course .container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.course .left {
+  display: flex;
+  flex-direction: column;
+}
+.course .left h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.course .container .right a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s all;
+  font-size: 1.5rem;
+}
+.course .container .right a:hover {
+  color: blue;
+}
+
+/* Chapter 1 plant tissues styling */
+.plant-tissues .container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.plant-tissues .container .left {
+  display: flex;
+  flex-direction: column;
+}
+.plant-tissues .container .right {
+  display: flex;
+  flex-direction: column;
+}
+.con-1-h3 {
+  text-align: center;
+  margin-bottom: 3%;
+  font-size: 2rem;
+}
+.plant-tissues {
+  padding-bottom: 3%;
+}
+.s-h3 {
+  margin-bottom: 2rem !important;
+  text-align: center !important;
+  padding-top: 5rem !important;
+  font-size: 3rem !important;
+}
+.plant-tissues .container-2 {
+  display: flex;
+  margin-left: 5rem;
+  gap: 5rem;
+  padding-bottom: 2rem;
+}
+.plant-tissues h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.plant-tissues ul li {
+  font-size: 1.5rem;
+}
+.plant-tissues .container-2 .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.plant-tissues .container-2 .right {
+  width: 45%;
+}
+.plant-tissues .container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.btn-answer {
+  background-color: transparent;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+  transition: 0.5s all;
+}
+.btn-answer:hover {
+  background-color: var(--secondary);
+  color: white;
+  border: 2px solid black;
+}
+.plant-tissues .container-4 .videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.plant-tissues .container-4 .videos iframe {
+  margin-right: 2%;
+  border: 3px solid black;
+}
+.plant-tissues .container-4 .videos {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Animal tissues section styling */
+.animal-tissue {
+  background: #fcd299;
+  color: #0000;
+  height: max-content;
+  padding-bottom: 3rem;
+}
+.animal-tissue .container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.animal-tissue .container .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.animal-tissue .container .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.animal-tissue .container iframe {
+  border: rgba(0, 0, 0, 0.7);
+}
+.animal-tissue h3 {
+  /* text-align: center; */
+  margin-bottom: 3%;
+  font-size: 2rem;
+  color: #000;
+}
+.animal-tissue h2 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: black;
+  text-shadow: 10px 7px 5px grey;
+}
+
+.animal-tissue .container-2 {
+  display: flex;
+  margin-left: 5rem;
+  gap: 5rem;
+  padding-bottom: 2rem;
+}
+.animal-tissue h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+.animal-tissue ul li {
+  font-size: 1.5rem;
+  color: #000;
+}
+.animal-tissue .container-2 .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.animal-tissue .container-2 .right {
+  width: 45%;
+}
+.animal-tissue .container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animal-tissue .container-4 .videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.animal-tissue .container-4 .videos iframe {
+  border: 2px solid var(--secondary);
+}
+
+/* classification of Animal Styling */
+.chap-3 .container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.chap-3 .container .left {
+  display: flex;
+  flex-direction: column;
+}
+.chap-3 .container .right {
+  display: flex;
+  flex-direction: column;
+}
+.chap-3 .heading-h2 {
+  text-align: center;
+}
