@@ -5,23 +5,49 @@ body {
 }
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap");
 :root {
-  --orange: #3b6f76;
+  --orange: #fcd299;
+  --secondary: #8d97fc;
 }
 
 .btn {
   display: inline-block;
   margin-top: 1rem;
   background: var(--orange);
-  color: #fff;
+  color: #000;
   padding: 0.8rem 3rem;
   border: 0.2rem solid var(--orange);
   cursor: pointer;
   font-size: 1.7rem;
 }
 .btn:hover {
-  background: #3b6f766e;
-  color: var(--orange);
-  color: white;
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--secondary);
+  color: #000;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid var(--secondary);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.btn-theme-2 {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--secondary);
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid var(--secondary);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.btn-theme-2:hover {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid black;
+  cursor: pointer;
+  font-size: 1.7rem;
 }
 * {
   font-family: "Nunito", sans-serif;
@@ -35,7 +61,7 @@ body {
 }
 ::selection {
   background-color: var(--orange);
-  color: white;
+  color: black;
 }
 
 html {
@@ -49,7 +75,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background: #333;
+  background: var(--secondary);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -59,7 +85,7 @@ header {
 header .logo {
   font-size: 2rem;
   font-weight: bolder;
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -67,17 +93,17 @@ header .logo span {
   color: var(--orange);
 }
 header .navbar a {
-  color: #fff;
+  color: #000;
   font-size: 1.7rem;
   margin-left: 2rem;
   text-decoration: none;
 }
 header .navbar a:hover {
-  color: orange;
+  color: var(--orange);
 }
 header .icons i {
   font-size: 2rem;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   margin-right: 1.5rem;
 }
@@ -90,7 +116,7 @@ header .search-bar-conatiner {
   left: 0;
   right: 0;
   padding: 1rem 1.5rem;
-  background: #333;
+  background: var(--secondary);
   border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
@@ -109,7 +135,7 @@ header .search-bar-conatiner #search-bar {
   border-radius: 0.5rem;
 }
 header .search-bar-conatiner label {
-  color: #fff;
+  color: #000;
   cursor: pointer;
   font-size: 2.5rem;
   margin-left: 1rem;
@@ -188,8 +214,7 @@ header .search-bar-conatiner label:hover {
   color: var(--orange);
 }
 #menu-bar {
-  color: #fff;
-  border: 0.1rem solid #fff;
+  color: #000;
   border-radius: 0.3rem;
   font-size: 2.5rem;
   padding: 0.3rem 1rem;
@@ -202,7 +227,7 @@ header .search-bar-conatiner label:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: #212121;
+  background: var(--secondary);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1005;
